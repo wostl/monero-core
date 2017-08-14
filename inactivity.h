@@ -1,3 +1,5 @@
+#include <QObject>
+
 class InactivityEventFilter : public QObject
 {
 Q_OBJECT
