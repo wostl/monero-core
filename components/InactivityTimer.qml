@@ -30,7 +30,7 @@ import QtQuick 2.0
 
 class MyEventFilter : public QObject
 {
-  Q_OBJECT
+Q_OBJECT
 protected:
   bool eventFilter(QObject *obj, QEvent *ev)
   {
