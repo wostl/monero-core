@@ -1,4 +1,7 @@
+#ifndef ELAPSED_TIMER_H
+#define ELAPSED_TIMER_H
 #include <QObject>
+#include <QTime>
 
 class InactivityEventFilter : public QObject
 {
@@ -13,3 +16,16 @@ protected:
     return QObject::eventFilter(obj, ev);
   }
 }
+
+
+class Elapsed_timer {
+public:
+  Elapsed_timer();
+  void restart();
+  int elapsed();
+
+private:
+  QTime start_time;
+};
+
+#endif
