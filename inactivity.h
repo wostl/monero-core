@@ -1,7 +1,5 @@
-#ifndef ELAPSED_TIMER_H
-#define ELAPSED_TIMER_H
+
 #include <QObject>
-#include <QTime>
 
 class InactivityEventFilter : public QObject
 {
@@ -17,6 +15,9 @@ protected:
   }
 }
 
+#ifndef ELAPSED_TIMER_H
+#define ELAPSED_TIMER_H
+#include <QTime>
 
 class Elapsed_timer {
 public:
