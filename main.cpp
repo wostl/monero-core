@@ -50,6 +50,7 @@
 #include "model/AddressBookModel.h"
 #include "wallet/wallet2_api.h"
 #include "MainApp.h"
+#include <QElapsedTimer>
 
 // IOS exclusions
 #ifndef Q_OS_IOS
